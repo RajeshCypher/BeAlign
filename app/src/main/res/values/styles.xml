@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoBarTrans" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#1D2130</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RegisterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#23283a</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StatusLightBlack" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#23283a</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullLightBlack" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#363A4B</item>
+    <item name="colorPrimaryDark">#23283a</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FocusStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:color">#00ff00</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+    </style>
+
+
+
+
+</resources>

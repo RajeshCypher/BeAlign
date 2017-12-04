@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.rajeshkumarreddy.bealign.FindClassActivity">
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/selectTitle"
+        android:textSize="20sp"
+        android:text="Select the class room do you want to find..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/classesSpinner"
+        android:layout_below="@+id/selectTitle"
+        android:background="@drawable/spinner_back"
+        android:padding="15dp"
+        android:entries="@array/classes"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/classesSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Class room :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Block :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/FCNavigate"
+        android:textColor="#fff"
+        android:background="@drawable/new_post_bbacks"
+        android:layout_alignParentBottom="true"
+        android:text="Navigate me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

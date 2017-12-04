@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rajeshkumarreddy.bealign.MoreActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/MFindClass"
+        android:drawablePadding="20dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="Find Classroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MFindClassT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Find the classroom in all branches in Hindustan University"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/MCgpa"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_cgpa"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="CGPA Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MCgpaT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Calculate your semester CGPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/MSecrity"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_phonelink_lock"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Security"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MSecrityT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Lock your app with fingerprint or PIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/MACalc"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_add_sub"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Attendance Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MACalcT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Calculate your attendance percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/MICalc"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_one"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Internals Calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MICalcT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Calculate your Internal marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <Switch
+            android:id="@+id/MSmart"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_action_vibrate"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:text="Smart Silence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MsmartT"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Mutes your phone at 9am and unmutes at 5pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/MFeedback"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_feedback"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Leave Feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/MFeedbackT"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="72dp"
+            android:text="Your valuable feedback helps us to fix bugs and improve features"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="#EEEDED"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:paddingBottom="20dp"
+            android:id="@+id/MDev"
+            android:drawablePadding="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableLeft="@drawable/ic_action_dev"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="About Developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

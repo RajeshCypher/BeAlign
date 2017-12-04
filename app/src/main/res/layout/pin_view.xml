@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/advicePin"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Waiting..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.goodiebag.pinview.Pinview
+        android:layout_marginTop="20dp"
+        app:pinWidth="50dp"
+        app:pinHeight="50dp"
+        app:pinLength="4"
+        app:cursorVisible="false"
+        app:forceKeyboard="true"
+        app:inputType="number"
+        app:password="true"
+        android:id="@+id/pinView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.goodiebag.pinview.Pinview>
+
+</LinearLayout>

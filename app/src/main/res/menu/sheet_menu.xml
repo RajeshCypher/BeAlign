@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mail"
+        android:title="Mail"
+        android:icon="@drawable/ic_email_black_24dp" />
+
+    <item android:id="@+id/whats"
+        android:title="WhatsApp"
+        android:icon="@drawable/ic_whatsapp_black" />
+
+    <item android:id="@+id/call"
+        android:title="Call"
+        android:icon="@drawable/ic_call_black_24dp" />
+
+</menu>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajeshkumarreddy.bealign.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Hits"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hits"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_width="2dp"
+            app:civ_border_color="#23283a"
+            android:id="@+id/appIcon"
+            android:layout_marginTop="-75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Hits"
+            android:src="@drawable/college"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:textColor="#000"
+            android:text="Be Align"
+            android:textSize="40sp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/appIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/appTag"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/appName"
+            android:textColor="#000"
+            android:text="Everyone under one roof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+            <com.sunfusheng.marqueeview.MarqueeView
+                app:mvGravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/appTag"
+                android:id="@+id/marqueeView"
+                app:mvTextColor="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                app:mvAnimDuration="500"
+                app:mvInterval="1500"
+                app:mvTextSize="20sp"
+                app:mvSingleLine="true"
+                android:layout_height="wrap_content">
+
+            </com.sunfusheng.marqueeview.MarqueeView>
+
+
+
+        <TextView
+            android:id="@+id/appDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/marqueeView"
+            android:padding="10dp"
+            android:text="This app is developed to put every student in Hindustan Institute of Technology and Science under one roof. This app helps you to know your Attendance, Internal marks, Assignments, Seating arrangement, Events, Contests and much more. It has many features like News Feeds, Blogs, Attendance calculator, Campus tour, Security, Professor finder, Class room finder, Chat room, Smart silence, Voice assistance, Syllabus with notes, Event or Assignment remider and much more attractive designs! This app even makes your student life easier. Please cooperate with us to get much more features."
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="10dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_below="@+id/appDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/appVersion"
+                    android:padding="10dp"
+                    android:layout_below="@+id/appDesc"
+                    android:text="Be Align\n© 2017 All rights reserved"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/appVersionCode"
+                    android:padding="10dp"
+                    android:layout_below="@+id/appDesc"
+                    android:text="Version : 1.0 BLUE"
+                    android:textSize="20sp"
+                    android:textColor="#0000FF"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/appVersion"
+                    android:text="Contact :"
+                    android:id="@+id/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/contact"
+                    android:textIsSelectable="true"
+                    android:text="alignbe@gmail.com"
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/sheet"
+                    android:textSize="17sp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    android:layout_margin="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:background="@drawable/new_post_bbacks"
+                    android:text="Contact Developer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

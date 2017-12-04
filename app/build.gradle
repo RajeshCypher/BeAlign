@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.rajeshkumarreddy.bealign"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.firebase:firebase-auth:11.0.4'
+    implementation 'com.google.firebase:firebase-database:11.0.4'
+    implementation 'com.google.firebase:firebase-storage:11.0.4'
+    implementation 'com.firebaseui:firebase-ui-database:2.2.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.tapadoo.android:alerter:1.0.4'                  //Alerter
+    implementation 'com.github.paolorotolo:appintro:4.1.0'              //App Intro
+    implementation 'com.wang.avi:library:2.1.3'                         //Avi Loading
+    implementation 'de.hdodenhof:circleimageview:2.2.0'                 //Circle Image
+    implementation 'com.sunfusheng:marqueeview:1.2.0'                   //Marquee Text
+    implementation 'com.github.whalemare:sheetmenu:1.3.3'               //Sheet Menu
+    implementation 'com.github.GrenderG:Toasty:1.2.5'                   //Toasty
+    implementation 'com.roughike:bottom-bar:1.3.3'                      //Bottom Bar
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'             //Facebook Shimmer
+    implementation 'com.xenione.libs:swipe-maker:1.1.1'                 //Swipe to delete post
+    implementation 'com.github.faruktoptas:FancyShowCaseView:0.0.3'     //Fancy Show Case view
+    implementation 'com.github.dimorinny:show-case-card-view:0.0.1'     //Show case card view
+    implementation 'com.github.sujithkanna:smileyrating:1.4'            //Smiley rating bar
+    implementation 'com.github.GoodieBag:Pinview:v1.3'                   //PIN Lock View
+}
+apply plugin: 'com.google.gms.google-services'

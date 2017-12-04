@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.rajeshkumarreddy.bealign.LoginActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="0.6"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:orientation="vertical"
+        android:background="#23283a">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:text="Welcome to Be Align"/>
+
+        <TextView
+            android:id="@+id/login_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:text="Be Align is not affiliated to Hindustan University. We created this app to make students life easier. We care for the security of users and we respect their privacy. It has many features like Exam Schedule, Timetable, Attendance, Marks, Leave approval."
+            android:textColor="#fff"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:elevation="10dp"
+                android:id="@+id/button11"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:textColor="#fff"
+                android:text="Solutions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylenormal"
+                android:textColor="#fff"
+                android:id="@+id/button10"
+                android:text="Join with us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Login to Be Align"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:maxLength="8"
+            android:id="@+id/editText"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:hint="Register Number"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editText2"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/button8"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:background="@drawable/buttonstylepink"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:visibility="gone"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            app:indicatorColor="#fe104d"
+            android:id="@+id/avi"
+            app:indicatorName="BallPulseSyncIndicator"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

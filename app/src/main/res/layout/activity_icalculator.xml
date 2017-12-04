@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.rajeshkumarreddy.bealign.ICalculatorActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="Calculate your Internal marks.\nPlease enter Inernal 1 and 2 marks out of 100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="number"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Internal 1"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:id="@+id/internal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="number"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Internal 2"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:id="@+id/internal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="number"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:hint="Model"
+        android:id="@+id/model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="3"
+        android:inputType="number"
+        android:hint="Attendance"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:id="@+id/attendanceET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="2"
+        android:inputType="number"
+        android:hint="Assignment 1"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:id="@+id/assignment1ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:digits="0123456789"
+        android:maxLength="2"
+        android:inputType="number"
+        android:hint="Assignment 2"
+        android:elevation="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/new_post_backs"
+        android:id="@+id/assignment2ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:elevation="5dp"
+            android:id="@+id/calculateInternals"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:text="Calculate"
+            android:layout_margin="10dp"
+            android:background="@drawable/new_post_bbacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

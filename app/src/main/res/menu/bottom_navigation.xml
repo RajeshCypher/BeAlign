@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Events"
+        android:icon="@drawable/ic_events"
+        android:id="@+id/BNEvents"/>
+
+    <item android:title="Academics"
+        android:icon="@drawable/ic_academics"
+        android:id="@+id/BNAcademics"/>
+
+    <item android:title="News Feed"
+        android:icon="@drawable/ic_satellite"
+        android:id="@+id/BNFeed"/>
+
+    <item android:title="Notifications"
+        android:icon="@drawable/ic_action_bottom_noti"
+        android:id="@+id/BNNotifications"/>
+
+    <item android:title="Attendance"
+        android:icon="@drawable/ic_check"
+        android:id="@+id/BNAttendance"/>
+
+</menu>

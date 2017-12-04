@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardElevation="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/feedName"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:text="Rajeshkumar Reddy"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.example.rajeshkumarreddy.bealign.HalfRightCoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:visibility="gone"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/backgroundView"
+            android:src="@drawable/ic_delete"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <com.xenione.libs.swipemaker.SwipeLayout
+            android:id="@+id/foregroundView"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/ballClip"
+                app:indicatorColor="#23283a"
+                android:padding="50dp"
+                android:layout_gravity="center"
+                app:indicatorName="BallClipRotatePulseIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/cover"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:id="@+id/feedImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.xenione.libs.swipemaker.SwipeLayout>
+
+        </com.example.rajeshkumarreddy.bealign.HalfRightCoordinatorLayout>
+
+
+        <TextView
+            android:id="@+id/feedTitle"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Hindustan University"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/feedDesc"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:text="One of the top colleges in India"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

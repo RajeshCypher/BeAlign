@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajeshkumarreddy.bealign.LearnActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/solutions"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="Be Align Solutions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/qLogin"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="Having problems while logging in?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/aLogin"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:text="1.Kindly check your internet connection and try again.\n2.Your password might be wrong, contact the developer for password change.\n3.Your account might be blocked temporarily for suspicious activities.\n4.You may get verification link lately. Please be patient and wait for the link atleast for three hours.\n5.Your email verification link may expired. Contact the developer.\n6.Please close and restart the app.\n7.If you still have any issues contact the developer."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/qRegister"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="Having problems while Registering?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/aRegister"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="1.Kindly check your internet connection and try again.\n2.Password must have 8 or more letters.\n3.Your account might already exists. Contact the developer for password change.\n4.You may get email verification link lately. Please wait atleat for 3 hours to get email verification link.\n5.You can verify your email address at any time with the provided link but only once.\n6.Please close and restart the app.\n7.If you still have any issues contact the developer.\n\nSorry for our inconvinience."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Contact :"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#159084"
+            android:text="alignbe@gmail.com"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:text="or"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_whatsapp"
+            android:drawablePadding="10dp"
+            android:elevation="10dp"
+            android:background="#34AF23"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:text="Text on WhatsApp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
